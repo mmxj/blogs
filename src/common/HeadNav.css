@@ -1,0 +1,47 @@
+#HeadNav {
+  height: 50px;
+  background: #444;
+  color: #fff;
+}
+#HeadNav .nav-wrap {
+  width: 1200px;
+  margin: 0 auto;
+  height: 50px;
+  box-sizing: border-box;
+}
+#HeadNav .nav-wrap .nav-logo-wrap {
+  display: inline-block;
+  font-size: 26px;
+  width: 26px;
+  vertical-align: top;
+  margin-left: 12px;
+  margin-top: 4px;
+}
+#HeadNav .nav-wrap .nav-list-wrap {
+  width: 1160px;
+  display: inline-block;
+  height: 50px;
+  text-align: right;
+}
+#HeadNav .nav-wrap .nav-list-wrap .ant-menu {
+  color: #fff;
+  background: transparent;
+  display: inline-block;
+  height: 50px;
+}
+#HeadNav .nav-wrap .nav-list-wrap .ant-menu-horizontal {
+  border-color: transparent;
+}
+#HeadNav .nav-wrap .nav-list-wrap .ant-menu-horizontal .ant-menu-item,
+#HeadNav .nav-wrap .nav-list-wrap .ant-menu-horizontal .ant-menu-submenu {
+  margin-top: 0;
+}
+#HeadNav .nav-wrap .nav-list-wrap .ant-menu-horizontal {
+  line-height: 47px;
+}
+#HeadNav .nav-wrap .nav-list-wrap .ant-menu-item a {
+  color: #fff;
+}
+#HeadNav .nav-wrap .nav-list-wrap .ant-menu-horizontal > .ant-menu-item-selected > a {
+  color: #61CDFE;
+}

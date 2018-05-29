@@ -1,0 +1,7 @@
+#DefaultLayout {
+  color: #333;
+  height: 100%;
+}
+#DefaultLayout .content-wrap {
+  min-height: calc(100% - 71px);
+}
